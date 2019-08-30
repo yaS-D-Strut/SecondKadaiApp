@@ -17,7 +17,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = Onamae
+        label.text = ("こんにちは、\(Onamae)さん")
 
         // Do any additional setup after loading the view.
     }
